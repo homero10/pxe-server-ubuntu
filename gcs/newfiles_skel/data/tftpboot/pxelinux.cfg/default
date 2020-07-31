@@ -2,12 +2,12 @@
 
 UI vesamenu.c32
 PROMPT 0
-TIMEOUT 600
+TIMEOUT 100
 DEFAULT memtest86
 # Later we will move this to a separate file to be INCLUDEd here:
-MENU TITLE Universal PXE Linux Bootloader
+MENU TITLE Instalador en Red
 MENU BACKGROUND menu.png
-MENU TABMSG  http://www.vandewerken.com.au/blog/
+MENU TABMSG  https://github.com/homero10
 MENU WIDTH 72
 MENU MARGIN 10
 MENU VSHIFT 3
@@ -24,7 +24,7 @@ menu color scrollbar 30;44 #DDDDDDDD #00000000 none
 
 
 label Ubuntu Distributions
-   menu label Ubuntu Distributions ->
+   menu label Ubuntu ->
    MENU INDENT 1
    CONFIG /menu/ubuntu.cfg
 
