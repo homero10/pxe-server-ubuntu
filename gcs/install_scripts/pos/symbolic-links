@@ -1,5 +1,5 @@
-if [ -f /data/tftpboot/*] ; then
-    echo "Ya existen los ficheros"
+if [ -f /data/tftpboot/pxelinux.0] ; then
+    echo "Ya existe el fichero pxelinux"
     else 
     ln -s /usr/lib/PXELINUX/pxelinux.0 /data/tftpboot/
     ln -s /usr/lib/syslinux/modules/bios/vesamenu.c32 /data/tftpboot/
