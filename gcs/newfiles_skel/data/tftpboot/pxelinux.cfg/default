@@ -7,7 +7,7 @@ DEFAULT memtest86
 # Later we will move this to a separate file to be INCLUDEd here:
 MENU TITLE Instalador en Red
 MENU BACKGROUND menu.png
-MENU TABMSG  https://github.com/homero10
+MENU TABMSG  https://github.com/homero10/pxe-server-ubuntu
 MENU WIDTH 72
 MENU MARGIN 10
 MENU VSHIFT 3
