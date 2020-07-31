@@ -1,0 +1,4 @@
+#Dependencias del paquete
+dnsmasq
+pxelinux
+syslinux-common
