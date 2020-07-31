@@ -2,3 +2,4 @@
 dnsmasq
 pxelinux
 syslinux-common
+nfs-kernel-server
