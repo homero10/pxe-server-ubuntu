@@ -1,6 +1,6 @@
 if [ -d /data/install/] ;
-    then echo "The /data/install/ directory is already configured"
-    else mkdir -p /data/install/
+then echo "The /data/install/ directory is already configured"
+else mkdir -p /data/install/
 fi
 
 exportfs -a
