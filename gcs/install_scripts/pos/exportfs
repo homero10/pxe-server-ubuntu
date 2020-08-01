@@ -1,2 +1,0 @@
-mkdir -p /data/install/
-exportfs -a

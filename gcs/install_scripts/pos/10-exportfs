@@ -1,0 +1,6 @@
+if [ -d /data/install/] ;
+then
+    else mkdir -p /data/install/
+fi
+
+exportfs -a
