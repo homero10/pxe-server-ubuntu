@@ -1,4 +1,4 @@
-if [ -f /data/tftpboot/pxelinux.0] ;
+if [ -f /data/tftpboot/pxelinux.0 ] ;
     then echo "El directorio ya está configurado"
     else 
     ln -s /usr/lib/PXELINUX/pxelinux.0 /data/tftpboot/
