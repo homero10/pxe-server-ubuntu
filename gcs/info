@@ -17,7 +17,7 @@ section: metapackages
 shortdesc: "PXE boot configurations"
 
 # Descripción larga, las lineas han de estar separadas por "\n "
-longdesc: "This package include PXE's configuration to Network Boor on LAN"
+longdesc: "This package include pxelinux configuration to build a Network Boot on Ubuntu"
 
 
 # Versión del paquete

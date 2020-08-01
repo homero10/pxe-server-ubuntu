@@ -1,3 +1,3 @@
 # pxe-server-ubuntu
 
-PXE's configuration files to build a PXE Network Boot on Ubuntu Server
+Config files to build a PXE Network Boot package on Ubuntu
