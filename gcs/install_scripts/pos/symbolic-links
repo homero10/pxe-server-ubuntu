@@ -3,6 +3,7 @@ if [ -f /data/tftpboot/pxelinux.0 ] ;
     else 
     ln -s /usr/lib/PXELINUX/pxelinux.0 /data/tftpboot/
     ln -s /usr/lib/syslinux/modules/bios/vesamenu.c32 /data/tftpboot/
+    ln -s /usr/lib/syslinux/modules/bios/vesamenu.c32 /data/tftpboot/menu/
     ln -s /usr/lib/syslinux/modules/bios/ldlinux.c32 /data/tftpboot/
     ln -s /usr/lib/syslinux/modules/bios/libcom32.c32 /data/tftpboot/
     ln -s /usr/lib/syslinux/modules/bios/libutil.c32 /data/tftpboot/
