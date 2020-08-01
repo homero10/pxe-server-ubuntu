@@ -5,8 +5,8 @@ fi
 
 exportfs -a
 
-if [ -f /data/tftpboot/pxelinux.0 ] ;
-then echo "El directorio ya está configurado"
+if [-f /data/tftpboot/pxelinux.0] ;
+then echo "The /data/tftpboot/ directory is already configured"
 else 
 ln -s /usr/lib/PXELINUX/pxelinux.0 /data/tftpboot/
 ln -s /usr/lib/syslinux/modules/bios/vesamenu.c32 /data/tftpboot/
