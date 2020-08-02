@@ -14,3 +14,5 @@ ln -s /usr/lib/syslinux/modules/bios/ldlinux.c32 /data/tftpboot/
 ln -s /usr/lib/syslinux/modules/bios/libcom32.c32 /data/tftpboot/
 ln -s /usr/lib/syslinux/modules/bios/libutil.c32 /data/tftpboot/
 fi
+
+service dnsmasq restart
