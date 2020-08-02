@@ -17,7 +17,7 @@ section: metapackages
 shortdesc: "PXE boot configurations"
 
 # Descripción larga, las lineas han de estar separadas por "\n "
-longdesc: "This package include pxelinux configuration to build a Network Boot on Ubuntu"
+longdesc: "This package include multiple configs (dnsmasq, pxelinux, nfs) to build a Network Boot on Ubuntu"
 
 
 # Versión del paquete
@@ -25,9 +25,9 @@ version: 1.2
 
 # Cambios en esta versión
 changes:
-    - New in 1.2 version:
-    - Fix bugs
-    - Added support for Ubuntu 19.04 image installation (Desktop, Live)
-    - Minor changes (relationed with visual style)
+    - New in 1.2 version
+    - Fix bugs.
+    - Added support for Ubuntu 19.04 image installation (Desktop, Live).
+    - Minor changes (relationed with visual style).
     - Added menu image.
     - Initial release.
