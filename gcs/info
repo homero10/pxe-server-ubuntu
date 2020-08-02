@@ -26,8 +26,8 @@ version: 1.2
 # Cambios en esta versión
 changes:
     - New in 1.2 version:
-    . Fix bugs
-    - Added support for Ubuntu 19.04 image installation.
-    . Minor changes.
+    - Fix bugs
+    - Added support for Ubuntu 19.04 image installation (Desktop, Live)
+    . Minor changes (relationed with visual style)
     - Added menu image.
     - Initial release.
